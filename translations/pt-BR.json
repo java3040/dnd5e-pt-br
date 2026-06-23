@@ -36,8 +36,8 @@
   "TYPES.Item.equipmentPl": "Equipamentos",
   "TYPES.Item.facility": "Instalação",
   "TYPES.Item.facilityPl": "Instalações",
-  "TYPES.Item.feat": "Característica",
-  "TYPES.Item.featurePl": "Características",
+  "TYPES.Item.feat": "Talento",
+  "TYPES.Item.featurePl": "Talentos",
   "TYPES.Item.loot": "Tesouro",
   "TYPES.Item.lootPl": "Tesouros",
   "TYPES.Item.race": "Espécie",
@@ -5109,14 +5109,14 @@
     "Mastery": {
       "Label": "Maestria em Arma",
       "Flavor": "Maestria",
-      "Cleave": "Fender",
-      "Graze": "Esfolar",
-      "Nick": "Entalhar",
+      "Cleave": "Golpe Cindido",
+      "Graze": "Arranhar",
+      "Nick": "Talho",
       "Push": "Empurrar",
-      "Sap": "Minar",
-      "Slow": "Lentidão",
+      "Sap": "Enfraquecer",
+      "Slow": "Abrandar",
       "Topple": "Derrubar",
-      "Vex": "Afligir"
+      "Vex": "Provocar"
     }
   },
   "DND5E.WeaponCategory": "Arma {category}",

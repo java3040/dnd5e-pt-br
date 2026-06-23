@@ -5,7 +5,7 @@
   "version": "4.0.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "relationships": {
     "systems": [
@@ -37,7 +37,7 @@
       }
     ]
   },
-  "esmodules": ["main.js"],
+  "esmodules": ["scripts/init.js"],
   "languages": [
     {
       "lang": "pt-BR",
