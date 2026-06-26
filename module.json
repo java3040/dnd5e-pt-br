@@ -37,7 +37,7 @@
       }
     ]
   },
-  "esmodules": ["main.js"],
+  "esmodules": ["scripts/init.js"],
   "languages": [
     {
       "lang": "pt-BR",
