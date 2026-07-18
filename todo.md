@@ -1,14 +1,13 @@
 # TODO
 
-- [x] Traduzir arquivo lang para o português brasileiro.
-  - [x] Falta adicionar as 2000 strings que estavam ausentes originalmente.
+- [x] Traduzir arquivo lang da versão 5.3.3 para o português brasileiro.
 
 - [~] Traduzir compêndio de 2014 para o português brasileiro.
   - [x] Backgrounds
   - [x] Classes
   - [x] Class Features
   - [x] Heroes
-  - [~] Items (atualmente em progresso)
+  - [~] Items
   - [ ] Monster Features
   - [ ] Monsters
   - [ ] Races
