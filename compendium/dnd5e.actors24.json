@@ -1050,7 +1050,7 @@
       "items": {
         "Human": {
           "name": "Humano",
-          "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"human-traits\">Traços Raciais Humanos</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 0,5 a 1,2 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento: </strong>9 metros</p><p>Como um humano você tem os seguintes traços especiais.</p><p><strong>Engenhoso. </strong>Você ganha inspiração heroica sempre que você terminar um descanso longo.</p><p><strong>Habil. </strong>Você ganha proficiência em uma perícia, à sua escolha.</p><p><strong>Versátil.</strong> Você ganha um talento de origem, à sua escolha (veja capítulo 5). Habilidoso é recomendável.</p>"
+          "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"human-traits\">Traços Raciais Humanos</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 0,5 a 1,2 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento: </strong>9 metros</p><p>Como um humano você tem os seguintes traços especiais.</p><p><strong>Engenhoso. </strong>Você ganha inspiração heroica sempre que você terminar um descanso longo.</p><p><strong>Hábil. </strong>Você ganha proficiência em uma perícia, à sua escolha.</p><p><strong>Versátil.</strong> Você ganha um talento de origem, à sua escolha (veja capítulo 5). Habilidoso é recomendável.</p>"
         },
         "Resourceful": {
           "name": "Engenhoso",
@@ -2697,7 +2697,7 @@
         },
         "Orc": {
           "name": "Orc",
-          "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspOrc00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"orc-traits\">Traços Raciais de Orc</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,8 a 2 metros de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um orc, você possui esses traços especiais.</p><p><strong>Surto de Adrenalina. </strong>Você pode executar a ação Correr como uma Ação Bônus. Ao executar isso, você adquire um número de Pontos de Vida Temporários igual ao seu Bônus de Proficiência. Você pode usar este traço um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Curto ou Longo.</p><p><strong>Visão no Escuro.</strong> Você tem visão no escuro com distância de 36 metros.</p><p><strong>Resistência Implacável.</strong> Ao ser reduzido a 0 Pontos de Vida, mas não morto imediatamente, você fica com 1 Ponto de Vida. Após usar este traço, você não pode fazê-lo novamente até completar um Descanso Longo.</p>"
+          "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspOrc00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"orc-traits\">Traços de Orc</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,8 a 2 metros de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um orc, você possui esses traços especiais.</p><p><strong>Surto de Adrenalina. </strong>Você pode executar a ação Correr como uma Ação Bônus. Ao executar isso, você adquire um número de Pontos de Vida Temporários igual ao seu Bônus de Proficiência. Você pode usar este traço um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Curto ou Longo.</p><p><strong>Visão no Escuro.</strong> Você tem visão no escuro com distância de 36 metros.</p><p><strong>Resistência Implacável.</strong> Ao ser reduzido a 0 Pontos de Vida, mas não morto imediatamente, você fica com 1 Ponto de Vida. Após usar este traço, você não pode fazê-lo novamente até completar um Descanso Longo.</p>"
         },
         "Adrenaline Rush": {
           "name": "Surto de Adrenalina",
@@ -3653,12 +3653,12 @@
           "description": "<p>If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.</p><section id=\"secret-EsDSGWYhmnmiS9Cu\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Damage</strong> activity scales automatically as you level up and allows you to select the type of damage to use in the damage roll's dialog box. It will then remember your choice going forward.</p></section>"
         },
         "Large Form": {
-          "name": "Large Form",
+          "name": "Forma Grande",
           "description": "<p>A partir do nível 5 de personagem, você pode alterar seu tamanho para Grande como uma Ação Bônus se estiver em um espaço grande o suficiente. Essa transformação se mantém por 10 minutos ou até que você a encerrar (nenhuma ação é necessária). Pela duração, você tem Vantagem em testes de Força, e seu Deslocamento aumenta em 3 metros. Após usar este traço, você não pode utilizá-lo novamente até completar um Descanso Longo.</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which automates the increase to your Speed and the Advantage on Strength checks.</p></section>",
           "effects": {
             "Large Form": {
-              "name": "Large Form",
-              "description": "<p>For the duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.</p>",
+              "name": "Forma Grande",
+              "description": "<p>Pela duração, você tem Vantagem em testes de Força, e seu Deslocamento aumenta em 3 metros. Após usar este traço, você não pode utilizá-lo novamente até completar um Descanso Longo.</p>",
               "changes": {
                 "system.attributes.movement.walk": 10,
                 "system.abilities.str.check.roll.mode": 1
@@ -6486,7 +6486,7 @@
         },
         "Human": {
           "name": "Humano",
-          "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"human-traits\">Traços Raciais Humanos</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 0,5 a 1,2 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento: </strong>9 metros</p><p>Como um humano você tem os seguintes traços especiais.</p><p><strong>Engenhoso. </strong>Você ganha inspiração heroica sempre que você terminar um descanso longo.</p><p><strong>Habil. </strong>Você ganha proficiência em uma perícia, à sua escolha.</p><p><strong>Versátil.</strong> Você ganha um talento de origem, à sua escolha (veja capítulo 5). Habilidoso é recomendável.</p>"
+          "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"human-traits\">Traços Raciais Humanos</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 0,5 a 1,2 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento: </strong>9 metros</p><p>Como um humano você tem os seguintes traços especiais.</p><p><strong>Engenhoso. </strong>Você ganha inspiração heroica sempre que você terminar um descanso longo.</p><p><strong>Hábil. </strong>Você ganha proficiência em uma perícia, à sua escolha.</p><p><strong>Versátil.</strong> Você ganha um talento de origem, à sua escolha (veja capítulo 5). Habilidoso é recomendável.</p>"
         },
         "Resourceful": {
           "name": "Engenhoso",
