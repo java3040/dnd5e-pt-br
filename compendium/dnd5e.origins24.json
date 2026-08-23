@@ -1,25 +1,5 @@
 {
   "label": "Origens de Personagem",
-  "mapping": {
-    "subtype": "system.type.subtype",
-    "requirements": "system.requirements",
-    "advancement": {
-      "path": "system.advancement",
-      "converter": "advancement"
-    },
-    "activities": {
-      "path": "system.activities",
-      "converter": "activities"
-    },
-    "rangeActivities": {
-      "path": "system.activities",
-      "converter": "rangeActivities"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    }
-  },
   "folders": {
     "Dragonborn": "Draconato",
     "Elf": "Elfo",
@@ -49,7 +29,7 @@
         },
         "Background Feat": {
           "title": "Talento do Antecedente",
-          "hint": "Seu antecedente te concede o talento Iniciado em Magia (Cleric)."
+          "hint": "Seu antecedente te concede o talento Iniciado em Magia (Clérigo)."
         },
         "Choose Languages": {
           "title": "Escolha Idiomas",
@@ -81,7 +61,7 @@
     },
     "phbbgSage0000000": {
       "name": "Sábio",
-      "description": "<p><strong>Valores de Atributo:</strong> Constituição, Inteligência, Sabedoria</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Iniciado em Magia} (Wizard)</p><p><strong>Proficiências em Perícias:</strong> Arcanismo e História</p><p><strong>Proficiência com Ferramentas:</strong> Suprimentos de Calígrafo</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Bastão}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Suprimentos de Calígrafo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Livro} (história), @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergaminho} (8 folhas), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Túnica}, 8 PO; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSage0000000 inline classes=\"free-rules-embed\"]</p>",
+      "description": "<p><strong>Valores de Atributo:</strong> Constituição, Inteligência, Sabedoria</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Iniciado em Magia} (Mago)</p><p><strong>Proficiências em Perícias:</strong> Arcanismo e História</p><p><strong>Proficiência com Ferramentas:</strong> Suprimentos de Calígrafo</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Bastão}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Suprimentos de Calígrafo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Livro} (história), @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergaminho} (8 folhas), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Túnica}, 8 PO; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSage0000000 inline classes=\"free-rules-embed\"]</p>",
       "advancement": {
         "Background Ability Score Improvement": {
           "title": "Aumento de Atributo de Antecedente",
@@ -103,7 +83,7 @@
     },
     "phbbgSoldier0000": {
       "name": "Soldado",
-      "description": "<p><strong>Valores de Atributo:</strong> Força, Destreza, Constituição</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftSavageAttac]{Atacante Selvagem}</p><p><strong>Proficiências em Perícias:</strong> Atletismo e Intimidação</p><p><strong>Proficiência com Ferramentas:</strong> <em>Escolha um tipo de Kit de Jogos</em> (veja o @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{capítulo 6})</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Spear}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Arco Curto}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Flechas}, Kit de Jogos (como acima), @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Kit de Curandeiro}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Aljava}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traje de Viajante}, 14 PO; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSoldier0000 inline classes=\"free-rules-embed\"]</p>",
+      "description": "<p><strong>Valores de Atributo:</strong> Força, Destreza, Constituição</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftSavageAttac]{Atacante Selvagem}</p><p><strong>Proficiências em Perícias:</strong> Atletismo e Intimidação</p><p><strong>Proficiência com Ferramentas:</strong> <em>Escolha um tipo de Kit de Jogos</em> (veja o @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{capítulo 6})</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Lança}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Arco Curto}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Flechas}, Kit de Jogos (como acima), @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Kit de Curandeiro}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Aljava}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traje de Viajante}, 14 PO; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSoldier0000 inline classes=\"free-rules-embed\"]</p>",
       "advancement": {
         "Background Ability Score Improvement": {
           "title": "Aumento de Atributo de Antecedente",
@@ -157,7 +137,7 @@
     },
     "phbspChthonicTie": {
       "name": "Tiferino Ctônico",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspChthonicTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Traços de Tiferino</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 1 a 1,2 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um tiferino, você tem esses traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Legado Ínfero.</strong> Você recebeu um legado que lhe concede habilidades sobrenaturais.</p><p>Quando seu personagem atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem esta magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Inteligência, Sabedoria ou Carisma são seu atributo de conjuração para as magias que você conjura com este traço (escolha o atributo ao selecionar o legado).</p><p><strong>Presença Sobrenatural.</strong> Você conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Taumaturgia}. Quando você o conjura usando este traço, a magia usa o mesmo atributo de conjuração usado para seu traço Legado Ínfero.</p><table><caption>Fiendish Legacies</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você tem resistência a dano necrótico.Você também conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr></tbody></table>",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspChthonicTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Traços de Tiferino</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 1 a 1,2 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um tiferino, você tem esses traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Legado Ínfero.</strong> Você recebeu um legado que lhe concede habilidades sobrenaturais.</p><p>Quando seu personagem atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem esta magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Inteligência, Sabedoria ou Carisma são seu atributo de conjuração para as magias que você conjura com este traço (escolha o atributo ao selecionar o legado).</p><p><strong>Presença Sobrenatural.</strong> Você conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Taumaturgia}. Quando você o conjura usando este traço, a magia usa o mesmo atributo de conjuração usado para seu traço Legado Ínfero.</p><table><caption>Fiendish Legacies</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você tem resistência a dano necrótico.Você também conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Toque Necrótico}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{Vitalidade Vazia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Raio do Enfraquecimento}</td></tr></tbody></table>",
       "subtype": "Tiferino",
       "advancement": {
         "lskxIeib6rIreZ1h": {
@@ -433,7 +413,7 @@
     },
     "phbsptAbyssalLeg": {
       "name": "Legado Infernal Abissal",
-      "description": "<p>Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>The entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Nota do Foundry</strong></p><p>A Resistência e as magias são concedidas a você automaticamente, e você será solicitado a escolher o atributo de conjuração durante o avanço de nível.</p></section>",
+      "description": "<p>Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>A entropia do Abismo, o caos do Pandemônio e o desespero de Carceri chamam os tiferinos que  possuem o legado abissal. Chifres, pelos, presas e odores peculiares são características físicas comuns desses tiferinos, a maioria dos quais tem o sangue de demônios correndo em suas veias.</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Raio Nauseante}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Imobilizar Pessoa}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Nota do Foundry</strong></p><p>A Resistência e as magias são concedidas a você automaticamente, e você será solicitado a escolher o atributo de conjuração durante o avanço de nível.</p></section>",
       "requirements": "Tiferino"
     },
     "phbsptAdrenaline": {
@@ -442,7 +422,7 @@
       "requirements": "Orc",
       "activities": {
         "Adrenaline Rush: Dash": {
-          "name": "Adrenaline Rush: Dash"
+          "name": "Surto de Adrenalina: Correr"
         }
       }
     },
@@ -466,7 +446,7 @@
     },
     "phbsptChthonicLe": {
       "name": "Legado Infernal Ctônico",
-      "description": "<p>Você recebeu um legado que lhe concede habilidades sobrenaturais.</p><p>Quando seu personagem atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem esta magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Inteligência, Sabedoria ou Carisma são seu atributo de conjuração para as magias que você conjura com este traço (escolha o atributo ao selecionar o legado).</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>Tieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.</p><table><caption>Chthonic Legacy Traits</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você tem resistência a dano necrótico. Você também conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Nota do Foundry</strong></p><p>A Resistência e as magias são concedidas a você automaticamente, e você será solicitado a escolher o atributo de conjuração durante o avanço de nível.</p></section>",
+      "description": "<p>Você recebeu um legado que lhe concede habilidades sobrenaturais.</p><p>Quando seu personagem atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem esta magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Inteligência, Sabedoria ou Carisma são seu atributo de conjuração para as magias que você conjura com este traço (escolha o atributo ao selecionar o legado).</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>Os tiferinos que possuem o legado ctôníco sentem não apenas a atração de Carceri, mas também a ganância de Gehenna e a escuridão de Hades. A aparência de alguns desses tiferinos é cadavérica. Outros possuem a beleza sobrenatural de um súcubo ou têm características físicas em comum com uma megera da noite, um yugoloth ou algum outro ancestral ínfero neutro e mau.</p><table><caption>Traços de Legado Ctônico</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você tem resistência a dano necrótico. Você também conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Toque Necrótico}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{Vitalidade Vazia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Raio do Enfraquecimento}</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Nota do Foundry</strong></p><p>A Resistência e as magias são concedidas a você automaticamente, e você será solicitado a escolher o atributo de conjuração durante o avanço de nível.</p></section>",
       "requirements": "Tiferino"
     },
     "phbsptCloudsJaun": {
@@ -538,7 +518,7 @@
     },
     "phbsptFrostsChil": {
       "name": "Frio Congelante",
-      "description": "<p>Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode infligir 1d6 pontos de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros até o início do seu próximo turno.</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which can be used for tracking and reduces their Speed by 10.</p></section>",
+      "description": "<p>Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode infligir 1d6 pontos de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros até o início do seu próximo turno.</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Essa característica inclui um Efeito Ativo que pode ser usado para rastrear e reduz o deslocamento deles em 3.</p></section>",
       "requirements": "Golias (Gigante do Gelo)",
       "activities": {
         "Chill": {
@@ -656,8 +636,8 @@
       "requirements": "Orc",
       "activities": {
         "Relentlessly Endure": {
-          "name": "Implacavelmente Resisten",
-          "condition": "When you are reduced to 0 Hit Points but not killed outright"
+          "name": "Implacavelmente Resistente",
+          "condition": "Ao ser reduzido a 0 Pontos de Vida, mas não morto imediatamente"
         }
       }
     },
