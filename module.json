@@ -42,7 +42,8 @@
     {
       "lang": "pt-BR",
       "name": "Português Brasileiro",
-      "path": "lang/pt-BR.json"
+      "path": "lang/pt-BR.json",
+      "flags": {}
     }
   ],
   "authors": [

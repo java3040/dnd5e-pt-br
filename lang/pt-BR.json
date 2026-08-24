@@ -440,7 +440,7 @@
         "other": "{points} Pontos Restantes"
       },
       "Title": "Aumento de Atributo",
-      "TitleEpic": "Benção Épica",
+      "TitleEpic": "Bênção Épica",
       "Warning": {
         "Type": "Apenas características com o tipo \"talento\" podem ser selecionadas."
       }
@@ -5604,14 +5604,14 @@
     "Mastery": {
       "Label": "Maestria em Arma",
       "Flavor": "Maestria",
-      "Cleave": "Trespassar",
-      "Graze": "Raspão",
-      "Nick": "Ágil",
+      "Cleave": "Fender",
+      "Graze": "Esfolar",
+      "Nick": "Entalhar",
       "Push": "Empurrar",
-      "Sap": "Desequilibrar",
-      "Slow": "Lentidão",
+      "Sap": "Minar",
+      "Slow": "Desacelerar",
       "Topple": "Derrubar",
-      "Vex": "Provocar"
+      "Vex": "Afligir"
     }
   },
 
