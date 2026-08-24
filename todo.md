@@ -18,8 +18,8 @@
   - [ ] Trade Goods
 
 - [ ] Traduzir compêndio de 2024 para o português brasileiro.
-  - [ ] Origins
-  - [ ] Classes
+  - [X] Origins
+  - [X] Classes
   - [ ] Feats
   - [ ] Equipment
   - [ ] Spells
