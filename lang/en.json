@@ -432,14 +432,14 @@
         "DescriptionEpicRecommendation": "<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. {recommendation} is recommended.</p>",
         "DescriptionLegacy": "<p>When you reach {firstLevelOrdinal} level, and again at {otherLevelsOrdinal} level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above {maxAbilityScore} using this feature.</p><p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
         "DescriptionModern": "<p>Você ganha o talento Aumento no Valor de Atributo ou outro talento à sua escolha para o qual se qualifique. You gain this feature again at {class} levels {otherLevels}.</p>",
-        "Name": "Ability Score Improvement"
+        "Name": "Aumento no Valor de Atributo"
       },
       "LockedHint": "Scores cannot be modified with a feat selected.",
       "PointsRemaining": {
         "one": "{points} Point Remaining",
         "other": "{points} Points Remaining"
       },
-      "Title": "Ability Score Improvement",
+      "Title": "Aumento no Valor de Atributo",
       "TitleEpic": "Bênção Épica",
       "Warning": {
         "Type": "Only features with the \"feat\" type can be selected."

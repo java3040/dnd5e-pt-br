@@ -306,7 +306,7 @@
         },
         "Forced March": {
           "name": "Marcha Forçada",
-          "text": "<p><strong>Marcha Forçada. </strong>A tabela Ritmo de Viagem pressupõe que os personagens viajem por 8 horas ao longo do dia. Eles podem forçar a marcha além desse limite, correndo o risco de gerar exaustão.</p><p>Para cada hora de viagem além das 8, os personagens cobrem a distância mostrada na coluna Hora, de acordo com ritmo da marcha. Em contrapartida, cada personagem deve fazer uma salvaguarda de Constituição ao final da hora. A CD é 10 + 1 por cada hora além das 8. O aventureiro que falhar sofre um nível de &amp;Reference[condition=exhaustion]{Exaustão}.</p>"
+          "text": "<p><strong>Marcha Forçada. </strong>A tabela Ritmo de Viagem pressupõe que os personagens viajem por 8 horas ao longo do dia. Eles podem forçar a marcha além desse limite, correndo o risco de gerar exaustão.</p><p>Para cada hora de viagem além das 8, os personagens cobrem a distância mostrada na coluna Hora, de acordo com ritmo da marcha. Em contrapartida, cada personagem deve fazer uma salvaguarda de Constituição ao final da hora. A CD é 10 + 1 por cada hora além das 8. O aventureiro que falhar sofre um nível de &Reference[condition=exhaustion]{Exaustão}.</p>"
         },
         "Mounts and Vehicles": {
           "name": "Montarias e Veículos",
@@ -326,7 +326,7 @@
         },
         "Falling": {
           "name": "Queda",
-          "text": "<p>Cair de uma grande altura é um dos riscos mais comuns que um aventureiro enfrenta. Assim que atinge a superfície, uma criatura sofre ld6 pontos de dano contundente para cada 3 metros em queda, até um máximo de 20d6. A criatura permanece &amp;Reference[condition=prone]{Caído}, a menos que, de algum modo, tenha evitado receber o dano da queda.</p>"
+          "text": "<p>Cair de uma grande altura é um dos riscos mais comuns que um aventureiro enfrenta. Assim que atinge a superfície, uma criatura sofre ld6 pontos de dano contundente para cada 3 metros em queda, até um máximo de 20d6. A criatura permanece &Reference[condition=prone]{Caído}, a menos que, de algum modo, tenha evitado receber o dano da queda.</p>"
         },
         "Suffocating": {
           "name": "Asfixia",
@@ -342,7 +342,7 @@
         },
         "Heavily Obscured": {
           "name": "Totalmente Obscurecida",
-          "text": "<p>Uma área <strong>totalmente obscurecida </strong>por escuridão, neblina ou folhagem densa bloqueia a visão completamente. Uma criatura sofre efetivamente da condição &amp;Reference[condition=blinded]{Cego} ao tentar enxergar nessa área.</p>"
+          "text": "<p>Uma área <strong>totalmente obscurecida </strong>por escuridão, neblina ou folhagem densa bloqueia a visão completamente. Uma criatura sofre efetivamente da condição &Reference[condition=blinded]{Cego} ao tentar enxergar nessa área.</p>"
         },
         "Bright Light": {
           "name": "Luz Plena",
@@ -350,7 +350,7 @@
         },
         "Dim Light": {
           "name": "Meia-luz",
-          "text": "<p><strong>Meia-luz</strong>, também chamada de penumbra, cria uma área &amp;Reference[lightly obscured]{parcialmente obscurecida}. Uma região de meia-luz costuma ser um limite entre uma fonte de luz plena, como uma tocha, e a escuridão circundante. A iluminação suave do crepúsculo e da aurora também contam como meia-luz. Uma lua cheia particularmente brilhante pode banhar a terra com meia-luz.</p>"
+          "text": "<p><strong>Meia-luz</strong>, também chamada de penumbra, cria uma área &Reference[lightly obscured]{parcialmente obscurecida}. Uma região de meia-luz costuma ser um limite entre uma fonte de luz plena, como uma tocha, e a escuridão circundante. A iluminação suave do crepúsculo e da aurora também contam como meia-luz. Uma lua cheia particularmente brilhante pode banhar a terra com meia-luz.</p>"
         },
         "Darkness": {
           "name": "Escuridão",
@@ -366,11 +366,11 @@
         },
         "Truesight": {
           "name": "Visão Verdadeira",
-          "text": "<p>Uma criatura com visão verdadeira pode, dentro de uma distância específica, enxergar na escuridão normal e mágica, enxergar criaturas e objetos &amp;Reference[condition=invisible]{invisíveis}, detectar ilusões visuais automaticamente e ser bem-sucedida em salvaguardas contra elas, bem como perceber a forma original de um metamorfo ou de uma criatura que esteja transformada por magia. Além disso, a criatura pode enxergar o Plano Etéreo.</p>"
+          "text": "<p>Uma criatura com visão verdadeira pode, dentro de uma distância específica, enxergar na escuridão normal e mágica, enxergar criaturas e objetos &Reference[condition=invisible]{invisíveis}, detectar ilusões visuais automaticamente e ser bem-sucedida em salvaguardas contra elas, bem como perceber a forma original de um metamorfo ou de uma criatura que esteja transformada por magia. Além disso, a criatura pode enxergar o Plano Etéreo.</p>"
         },
         "Food and Water": {
           "name": "Comida e Água",
-          "text": "<p>Personagens que sofrem falta de alimento e água, sofrem os efeitos da &amp;Reference[condition=exhaustion]{Exaustão}. Este tipo de exaustão não pode ser removida até que o personagem coma e beba a quantidade necessária.</p><h3>Comida</h3><p>@Embed[.jayo7XVgGnRCpTW0 inline]</p><h3>Água</h3><p>@Embed[.iIEI87J7lr2sqtb5 inline]</p>"
+          "text": "<p>Personagens que sofrem falta de alimento e água, sofrem os efeitos da &Reference[condition=exhaustion]{Exaustão}. Este tipo de exaustão não pode ser removida até que o personagem coma e beba a quantidade necessária.</p><h3>Comida</h3><p>@Embed[.jayo7XVgGnRCpTW0 inline]</p><h3>Água</h3><p>@Embed[.iIEI87J7lr2sqtb5 inline]</p>"
         },
         "Food": {
           "name": "Comida",
@@ -422,7 +422,7 @@
         },
         "Being Prone": {
           "name": "Caído",
-          "text": "<p>Muitas vezes os combatentes terminam caídos, seja porque foram derrubados ou porque eles mesmos se jogaram no chão. Para efeitos de jogo, eles estão &amp;Reference[condition=prone]{caídos}, uma condição descrita no @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0]{Apêndice A: Condições}.</p><p>@Embed[.hwTLpAtSS5OqQsI1 inline]</p><p>@Embed[.VWG9qe8PUNtS28Pw inline]</p>"
+          "text": "<p>Muitas vezes os combatentes terminam caídos, seja porque foram derrubados ou porque eles mesmos se jogaram no chão. Para efeitos de jogo, eles estão &Reference[condition=prone]{caídos}, uma condição descrita no @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0]{Apêndice A: Condições}.</p><p>@Embed[.hwTLpAtSS5OqQsI1 inline]</p><p>@Embed[.VWG9qe8PUNtS28Pw inline]</p>"
         },
         "Dropping Prone & Standing Up": {
           "name": "Cair e Levantar",
@@ -474,7 +474,7 @@
         },
         "Dodge": {
           "name": "Esquivar",
-          "text": "<p>Ao executar a ação Esquivar, você se concentra inteiramente em evitar ataques. Até o início do seu próximo turno, qualquer jogada de ataque feita contra você terá desvantagem, caso você possa ver o atacante, e suas salvaguardas de Destreza serão feitas com vantagem. Você perde este benefício se estiver &amp;Reference[Incapacitated] (como explicado no @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0]{Apêndice A: Condições}) ou se o seu deslocamento cair para 0.</p>"
+          "text": "<p>Ao executar a ação Esquivar, você se concentra inteiramente em evitar ataques. Até o início do seu próximo turno, qualquer jogada de ataque feita contra você terá desvantagem, caso você possa ver o atacante, e suas salvaguardas de Destreza serão feitas com vantagem. Você perde este benefício se estiver &Reference[Incapacitated] (como explicado no @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0]{Apêndice A: Condições}) ou se o seu deslocamento cair para 0.</p>"
         },
         "Help": {
           "name": "Ajudar",
@@ -534,7 +534,7 @@
         },
         "Grappling": {
           "name": "Agarrar",
-          "text": "<p>Quando você quer agarrar uma criatura, ou engalfinhar-se com ela, pode usar sua ação Atacar para realizar um ataque corpo a corpo especial, um agarramento. Se for capaz de fazer múltiplos ataques com a ação Atacar, este ataque pode substituir um deles.</p><p>O alvo do agarramento não pode ter um tamanho maior do que uma categoria acima da sua, e deve estar dentro do seu alcance. Usando pelo menos uma mão livre, você tenta capturar o alvo, realizando uma jogada de agarrar, no lugar de uma jogada de ataque: um teste de Força (Atletismo) seu é resistido por um teste de Força (Atletismo) ou Destreza (Acrobacia) do alvo (à escolha dele). Você é automaticamente bem-sucedido no teste se o alvo estiver incapacitado. Se você obtiver sucesso, o alvo estará submetido à condição de &amp;Reference[Grappled]. Essa condição implica em algumas consequências, e você pode liberar o alvo quando quiser (nenhuma ação necessária).</p><p>@Embed[.2TZKy9YbMN3ZY3h8 inline]</p><p>@Embed[.x5bUdhAD7u5Bt2rg inline]</p>"
+          "text": "<p>Quando você quer agarrar uma criatura, ou engalfinhar-se com ela, pode usar sua ação Atacar para realizar um ataque corpo a corpo especial, um agarramento. Se for capaz de fazer múltiplos ataques com a ação Atacar, este ataque pode substituir um deles.</p><p>O alvo do agarramento não pode ter um tamanho maior do que uma categoria acima da sua, e deve estar dentro do seu alcance. Usando pelo menos uma mão livre, você tenta capturar o alvo, realizando uma jogada de agarrar, no lugar de uma jogada de ataque: um teste de Força (Atletismo) seu é resistido por um teste de Força (Atletismo) ou Destreza (Acrobacia) do alvo (à escolha dele). Você é automaticamente bem-sucedido no teste se o alvo estiver incapacitado. Se você obtiver sucesso, o alvo estará submetido à condição de &Reference[Grappled]. Essa condição implica em algumas consequências, e você pode liberar o alvo quando quiser (nenhuma ação necessária).</p><p>@Embed[.2TZKy9YbMN3ZY3h8 inline]</p><p>@Embed[.x5bUdhAD7u5Bt2rg inline]</p>"
         },
         "Escaping a Grapple": {
           "name": "Escapando de um Agarramento",
@@ -546,7 +546,7 @@
         },
         "Shoving a Creature": {
           "name": "Empurrar uma Criatura",
-          "text": "<p>Usando a ação Ataque, você pode realizar um ataque corpo a corpo especial para empurrar uma criatura, seja com a intenção de derrubá-la ou de empurrá-la para longe de você. Se for capaz de realizar múltiplos ataques com a ação Atacar, este ataque pode substitui um deles.</p><p>O alvo não pode ser mais do que uma categoria de tamanho maior que você e deve estar dentro do seu alcance. No lugar de uma jogada de ataque, você realiza um teste de Força (Atletismo), resistido por um teste de Força (Atletismo) ou Destreza (Acrobacia) do alvo (ele pode escolher qual). Você é automaticamente bem-sucedido no teste, se o alvo estiver incapacitado. Se vencer a disputa, você pode deixá-lo &amp;Reference[Prone] (derrubá-lo) ou empurrá-lo a até 1,5 metro de distância.</p>"
+          "text": "<p>Usando a ação Ataque, você pode realizar um ataque corpo a corpo especial para empurrar uma criatura, seja com a intenção de derrubá-la ou de empurrá-la para longe de você. Se for capaz de realizar múltiplos ataques com a ação Atacar, este ataque pode substitui um deles.</p><p>O alvo não pode ser mais do que uma categoria de tamanho maior que você e deve estar dentro do seu alcance. No lugar de uma jogada de ataque, você realiza um teste de Força (Atletismo), resistido por um teste de Força (Atletismo) ou Destreza (Acrobacia) do alvo (ele pode escolher qual). Você é automaticamente bem-sucedido no teste, se o alvo estiver incapacitado. Se vencer a disputa, você pode deixá-lo &Reference[Prone] (derrubá-lo) ou empurrá-lo a até 1,5 metro de distância.</p>"
         },
         "Cover": {
           "name": "Cobertura",
@@ -646,7 +646,7 @@
         },
         "Falling Unconscious": {
           "name": "Inconsciência",
-          "text": "<p>Se os danos reduzirem seus pontos de vida a 0, mas não matá-lo instantaneamente, você fica &amp;Reference[Unconscious], voltando à consciência assim que recuperar qualquer quantidade de pontos de vida.</p>"
+          "text": "<p>Se os danos reduzirem seus pontos de vida a 0, mas não matá-lo instantaneamente, você fica &Reference[Unconscious], voltando à consciência assim que recuperar qualquer quantidade de pontos de vida.</p>"
         },
         "Death Saving Throws": {
           "name": "Salvaguarda Contra Morte",
@@ -1716,7 +1716,7 @@
       "pages": {
         "Art": {
           "name": "Arte",
-          "text": "<h4>Dungeons &amp; Dragons Logo Design</h4><p>Glitschka Studios</p><h4>Fizban’s Treasury of Dragons</h4><p>Cover Illustrators: Anato Finnstark, Chris Rahn</p><h4>Ghosts of Saltmarsh</h4><p>Cover Illustrator: Grzegorz Rutkowski</p><h4>Monster Manual</h4><p>Aboleth: Kev Walker</p><p>Balor: Sidharth Chaturvedi</p><p>Banshees: Domenico Cava</p><p>Blob of Annihilation: Mathias Kollros</p><p>Carrion Crawlers: Brian Valeza</p><p>Colossus: Maxime Minard</p><p>Druid in Jungle: Katerina Ladon</p><p>Empyreans: Néstor Ossandón Leal</p><p>Fire Elemental: Chris Cold</p><p>Ogres: Hinchel Or</p><p>Pixies: Annie Stegg</p><p>Priests: Katerina Ladon</p><p>Pseudodragon: Crystal Sully</p><p>Treant: Robson Michel</p><h4>Player's Handbook</h4><p>Cover Illustrator (standard): Tyler Jacobson</p><p>Cover Illustrator (special edition): Joshua M. Smith</p><p>Barbarian: Denman Rooke</p><p>Bard: Evyn Fong</p><p>Cleric: Michael Broussard</p><p>Druid: Alexander Mokhov</p><p>Fighter: Néstor Ossandón Leal</p><p>Monk: Joshua Raphael</p><p>Paladin: Michael Broussard</p><p>Ranger: Chris Rallis</p><p>Rogue: Aurore Folny</p><p>Sorcerer: Evyn Fong</p><p>Warlock: Néstor Ossandón Leal</p><p>Wizard: Billy Christian</p><h4>Sword Coast Adventurer's Guide</h4><p>Cover Illustrator: Tyler Jacobson</p><h4>Tactical Maps Reincarnated</h4><p>Cover Illustrator: Joshua M. Smith</p><h4>Volo's Guide to Monsters</h4><p>Cover Illustrator (special edition): Joshua M. Smith</p><h4>Xanathar's Guide to Everything</h4><p>Cover Illustrator: Jason Rainville</p><h4>Character Sheet Graphics</h4><p><a href=\"https://mikiko.art/\" target=\"_blank\" rel=\"noopener\">mikiko.art</a></p><h4>SRD Monster Tokens</h4><p><a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></p><h4>Dynamic Token Rings</h4><p><a href=\"https://www.caeora.com/\" target=\"_blank\" rel=\"noopener\">Caeora</a></p><h4>Icons</h4><p><a href=\"https://game-icons.net/\" target=\"_blank\" rel=\"noopener\">game-icons.net</a></p><p><a href=\"https://fontawesome.com/\" target=\"_blank\" rel=\"noopener\">Font Awesome</a></p><p><a href=\"https://thenounproject.com/\" target=\"_blank\" rel=\"noopener\">Noun Project</a></p>"
+          "text": "<h4>Dungeons & Dragons Logo Design</h4><p>Glitschka Studios</p><h4>Fizban’s Treasury of Dragons</h4><p>Cover Illustrators: Anato Finnstark, Chris Rahn</p><h4>Ghosts of Saltmarsh</h4><p>Cover Illustrator: Grzegorz Rutkowski</p><h4>Monster Manual</h4><p>Aboleth: Kev Walker</p><p>Balor: Sidharth Chaturvedi</p><p>Banshees: Domenico Cava</p><p>Blob of Annihilation: Mathias Kollros</p><p>Carrion Crawlers: Brian Valeza</p><p>Colossus: Maxime Minard</p><p>Druid in Jungle: Katerina Ladon</p><p>Empyreans: Néstor Ossandón Leal</p><p>Fire Elemental: Chris Cold</p><p>Ogres: Hinchel Or</p><p>Pixies: Annie Stegg</p><p>Priests: Katerina Ladon</p><p>Pseudodragon: Crystal Sully</p><p>Treant: Robson Michel</p><h4>Player's Handbook</h4><p>Cover Illustrator (standard): Tyler Jacobson</p><p>Cover Illustrator (special edition): Joshua M. Smith</p><p>Barbarian: Denman Rooke</p><p>Bard: Evyn Fong</p><p>Cleric: Michael Broussard</p><p>Druid: Alexander Mokhov</p><p>Fighter: Néstor Ossandón Leal</p><p>Monk: Joshua Raphael</p><p>Paladin: Michael Broussard</p><p>Ranger: Chris Rallis</p><p>Rogue: Aurore Folny</p><p>Sorcerer: Evyn Fong</p><p>Warlock: Néstor Ossandón Leal</p><p>Wizard: Billy Christian</p><h4>Sword Coast Adventurer's Guide</h4><p>Cover Illustrator: Tyler Jacobson</p><h4>Tactical Maps Reincarnated</h4><p>Cover Illustrator: Joshua M. Smith</p><h4>Volo's Guide to Monsters</h4><p>Cover Illustrator (special edition): Joshua M. Smith</p><h4>Xanathar's Guide to Everything</h4><p>Cover Illustrator: Jason Rainville</p><h4>Character Sheet Graphics</h4><p><a href=\"https://mikiko.art/\" target=\"_blank\" rel=\"noopener\">mikiko.art</a></p><h4>SRD Monster Tokens</h4><p><a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></p><h4>Dynamic Token Rings</h4><p><a href=\"https://www.caeora.com/\" target=\"_blank\" rel=\"noopener\">Caeora</a></p><h4>Icons</h4><p><a href=\"https://game-icons.net/\" target=\"_blank\" rel=\"noopener\">game-icons.net</a></p><p><a href=\"https://fontawesome.com/\" target=\"_blank\" rel=\"noopener\">Font Awesome</a></p><p><a href=\"https://thenounproject.com/\" target=\"_blank\" rel=\"noopener\">Noun Project</a></p>"
         }
       }
     }
