@@ -18,9 +18,9 @@
   - [ ] Trade Goods
 
 - [ ] Traduzir compêndio de 2024 para o português brasileiro.
-  - [X] Origins
-  - [X] Classes
-  - [ ] Feats
+  - [x] Origins
+  - [x] Classes
+  - [~] Feats
   - [ ] Equipment
   - [ ] Spells
   - [ ] Actors
