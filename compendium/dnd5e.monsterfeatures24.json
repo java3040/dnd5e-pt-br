@@ -46,7 +46,7 @@
       "effects": {
         "Grappled": {
           "name": "Agarrado",
-          "description": "<p>The target has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC). Ability checks made to escape this grapple have Desvantagem.</p>"
+          "description": "<p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC). Ability checks made to escape this grapple have Disadvantage.</p>"
         }
       }
     },
@@ -83,7 +83,7 @@
     },
     "Antennae": {
       "name": "Antennae",
-      "description": "<p>The [[lookup @name lowercase]]{monster} targets one [[lookup @target.affects.special activity=dcSC7EuknnM0uoqY]] object—armor or a weapon—worn or carried by a creature within [[lookup @range.value activity=dcSC7EuknnM0uoqY]] feet of itself. <em>Salvaguarda de Destreza:</em> DC [[lookup @save.dc.value activity=dcSC7EuknnM0uoqY]], the creature with the object. <em>Falha:</em> The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]</em> spell on the armor or weapon.</p><section class=\"secret\" id=\"secret-4QbvfWBnYI6ImcGC\"><p><strong>Nota do Foundry</strong></p><p>This feature also provides a <strong>Damaged</strong> Enchantment effect that will modify the targeted object. Due to the fact that the equipment penalty can be applied multiple times, the enchantment needs to be dragged from this item's Effects tab onto the target Item's sheet.</p></section>",
+      "description": "<p>The [[lookup @name lowercase]]{monster} targets one [[lookup @target.affects.special activity=dcSC7EuknnM0uoqY]] object—armor or a weapon—worn or carried by a creature within [[lookup @range.value activity=dcSC7EuknnM0uoqY]] feet of itself. <em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=dcSC7EuknnM0uoqY]], the creature with the object. <em>Failure:</em> The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]</em> spell on the armor or weapon.</p><section class=\"secret\" id=\"secret-4QbvfWBnYI6ImcGC\"><p><strong>Nota do Foundry</strong></p><p>This feature also provides a <strong>Damaged</strong> Enchantment effect that will modify the targeted object. Due to the fact that the equipment penalty can be applied multiple times, the enchantment needs to be dragged from this item's Effects tab onto the target Item's sheet.</p></section>",
       "effects": {
         "Damaged: -1 AC/Attack": {
           "name": "Damaged: -1 AC/Attack",
@@ -169,7 +169,7 @@
       "effects": {
         "Poisoned": {
           "name": "Envenenado",
-          "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the start of the user's next turn. Until this poison ends, the target can’t regain Hit Points.</p>"
+          "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the start of the user's next turn. Until this poison ends, the target can’t regain Hit Points.</p>"
         }
       }
     },
@@ -221,7 +221,7 @@
       "effects": {
         "Blinded": {
           "name": "Cego",
-          "description": "<p>The target has the &Reference[Blinded apply=false] condition until the end of the user's next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Blinded apply=false] condition until the end of the user's next turn.</p>"
         }
       }
     },
@@ -240,7 +240,7 @@
       "effects": {
         "Blinded": {
           "name": "Cego",
-          "description": "<p>the target has the &Reference[Blinded apply=false] condition until the end of the user’s next turn.</p>"
+          "description": "<p>the target has the &amp;Reference[Blinded apply=false] condition until the end of the user’s next turn.</p>"
         }
       }
     },
@@ -274,7 +274,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>If the target is a Large or smaller creature, it has the &Reference[Prone] condition.</p>"
+          "description": "<p>If the target is a Large or smaller creature, it has the &amp;Reference[Prone] condition.</p>"
         }
       }
     },
@@ -324,7 +324,7 @@
       "effects": {
         "Charmed": {
           "name": "Enfeitiçado",
-          "description": "<p>The target has the &Reference[Charmed apply=false] condition until the start of the user's next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition until the start of the user's next turn.</p>"
         }
       }
     },
@@ -429,7 +429,7 @@
       "effects": {
         "Restrained": {
           "name": "Contido",
-          "description": "<p>The target has the &Reference[Restrained apply=false] condition until the end of the attacking creature's next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition until the end of the attacking creature's next turn.</p>"
         }
       }
     },
@@ -488,7 +488,7 @@
       "effects": {
         "Restrained": {
           "name": "Contido",
-          "description": "<p>The target has the &Reference[Restrained apply=false] condition and moves with the whirlwind.</p><p>At the end of each of its turns, the target repeats the save, ending the effect on itself on a success.</p>"
+          "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition and moves with the whirlwind.</p><p>At the end of each of its turns, the target repeats the save, ending the effect on itself on a success.</p>"
         }
       }
     },
@@ -534,7 +534,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>The target has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -601,7 +601,7 @@
     },
     "Divine Aid": {
       "name": "Divine Aid",
-      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Benção}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dissipar Magia}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHealingWor]{palavra curativa}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Restauração Menor}</em>, using the same spellcasting ability as Spellcasting.</p>"
+      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Benção}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHealingWor]{palavra curativa}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em>, using the same spellcasting ability as Spellcasting.</p>"
     },
     "Divine Awareness": {
       "name": "Divine Awareness",
@@ -684,7 +684,7 @@
       "effects": {
         "Frightened": {
           "name": "Amedrontado",
-          "description": "<p>The target has the &Reference[Frightened apply=false] condition until the end of the attacking creature's next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the end of the attacking creature's next turn.</p>"
         }
       }
     },
@@ -710,7 +710,7 @@
       "effects": {
         "Charmed": {
           "name": "Enfeitiçado",
-          "description": "<p>The target has the &Reference[Charmed apply=false] condition until the start of the attacking creature's next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition until the start of the attacking creature's next turn.</p>"
         }
       }
     },
@@ -730,7 +730,7 @@
       "effects": {
         "Restrained": {
           "name": "Contido",
-          "description": "<p>The target has the &Reference[Restrained apply=false] condition until the rope is destroyed.</p>"
+          "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition until the rope is destroyed.</p>"
         }
       }
     },
@@ -740,7 +740,7 @@
       "effects": {
         "Charmed": {
           "name": "Enfeitiçado",
-          "description": "<p>The target has the &Reference[Charmed apply=false] condition until the start of the attacking creature’s next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition until the start of the attacking creature’s next turn.</p>"
         }
       }
     },
@@ -778,7 +778,7 @@
       "effects": {
         "Frightened": {
           "name": "Amedrontado",
-          "description": "<p>The target has the &Reference[Frightened apply=false] condition until the start of its next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the start of its next turn.</p>"
         }
       }
     },
@@ -788,7 +788,7 @@
       "effects": {
         "Poisoned": {
           "name": "Envenenado",
-          "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the end of its next turn. While Poisoned, the creature can take either an action or a Bonus Action on its turn, not both, and it can’t take Reactions.</p>"
+          "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the end of its next turn. While Poisoned, the creature can take either an action or a Bonus Action on its turn, not both, and it can’t take Reactions.</p>"
         }
       }
     },
@@ -846,7 +846,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>The target has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -856,7 +856,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>The target has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -958,7 +958,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>The target has the &Reference[Prone apply=false] condition if the attacking creature used its moving attack feature.</p>"
+          "description": "<p>The target has the &amp;Reference[Prone apply=false] condition if the attacking creature used its moving attack feature.</p>"
         }
       }
     },
@@ -968,7 +968,7 @@
       "effects": {
         "Poisoned": {
           "name": "Envenenado",
-          "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the end of its next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the end of its next turn.</p>"
         }
       }
     },
@@ -978,7 +978,7 @@
       "effects": {
         "Grappled": {
           "name": "Agarrado",
-          "description": "<p>If the target is a Medium or smaller creature, it has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
+          "description": "<p>If the target is a Medium or smaller creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
         }
       }
     },
@@ -1067,7 +1067,7 @@
       "effects": {
         "Frightened": {
           "name": "Amedrontado",
-          "description": "<p>The target has the &Reference[Frightened apply=false] condition until the start of the attacking creature's next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the start of the attacking creature's next turn.</p>"
         }
       }
     },
@@ -1077,7 +1077,7 @@
       "effects": {
         "Frightened": {
           "name": "Amedrontado",
-          "description": "<p>The target has the &Reference[Frightened apply=false] condition for 1 minute, until it takes damage, or until it ends its turn with the attacking creature out of line of sight.</p>"
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition for 1 minute, until it takes damage, or until it ends its turn with the attacking creature out of line of sight.</p>"
         }
       }
     },
@@ -1140,7 +1140,7 @@
       "effects": {
         "Poisoned": {
           "name": "Envenenado",
-          "description": "<p>the target has the &Reference[Poisoned apply=false] condition until the start of the attacking creature’s next turn.</p>"
+          "description": "<p>the target has the &amp;Reference[Poisoned apply=false] condition until the start of the attacking creature’s next turn.</p>"
         }
       }
     },
@@ -1220,7 +1220,7 @@
     },
     "Loathsome Limbs": {
       "name": "Loathsome Limbs",
-      "description": "<p class=\"feature\">If the [[lookup @name lowercase]]{monster} ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the [[lookup @name lowercase]]{monster}l's limbs is severed, falls into the [[lookup @name lowercase]]{monster}'s space, and becomes a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]{Troll Limb}</strong>. The limb acts immediately after the [[lookup @name lowercase]]{monster}'s turn. The [[lookup @name lowercase]]{monster} has 1 &Reference[Exhaustion apply=false] level for each missing limb, and it grows replacement limbs the next time it regains Hit Points.</p><section class=\"secret\" id=\"secret-01PBOuaZ8xS1KYt6\"><p><strong>Nota do Foundry</strong></p><p>This feature provides an Active Effect condition in the character sheet's Effects tab to enable each level of Exhaustion. Since the condition can be applied multiple times, the GM must manually manage the level of Exhaustion. There is an active effect available for each level of exhaustion.</p></section>",
+      "description": "<p class=\"feature\">If the [[lookup @name lowercase]]{monster} ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the [[lookup @name lowercase]]{monster}l's limbs is severed, falls into the [[lookup @name lowercase]]{monster}'s space, and becomes a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]{Troll Limb}</strong>. The limb acts immediately after the [[lookup @name lowercase]]{monster}'s turn. The [[lookup @name lowercase]]{monster} has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb, and it grows replacement limbs the next time it regains Hit Points.</p><section class=\"secret\" id=\"secret-01PBOuaZ8xS1KYt6\"><p><strong>Nota do Foundry</strong></p><p>This feature provides an Active Effect condition in the character sheet's Effects tab to enable each level of Exhaustion. Since the condition can be applied multiple times, the GM must manually manage the level of Exhaustion. There is an active effect available for each level of exhaustion.</p></section>",
       "effects": {
         "Exhaustion 1": {
           "name": "Exhaustion 1",
@@ -1260,7 +1260,7 @@
     },
     "Magic of the Spider Queen": {
       "name": "Magic of the Spider Queen",
-      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Teia}</em>, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]).</p>"
+      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</em>, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]).</p>"
     },
     "Magic Resistance": {
       "name": "Magic Resistance",
@@ -1288,7 +1288,7 @@
       "effects": {
         "Incapacitated": {
           "name": "Incapacitado",
-          "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the start of the attacking creature's next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Incapacitated apply=false] condition until the start of the attacking creature's next turn.</p>"
         }
       }
     },
@@ -1298,7 +1298,7 @@
       "effects": {
         "Paralyzed": {
           "name": "Paralisado",
-          "description": "<p>Once in its resting place, it returns to its vampire form and has the &Reference[Paralyzed apply=false] condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there.</p>"
+          "description": "<p>Once in its resting place, it returns to its vampire form and has the &amp;Reference[Paralyzed apply=false] condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there.</p>"
         }
       }
     },
@@ -1312,7 +1312,7 @@
       "effects": {
         "Frightened": {
           "name": "Amedrontado",
-          "description": "<p>The target has the &Reference[Frightened apply=false] condition until the end of the attacking creature's next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the end of the attacking creature's next turn.</p>"
         }
       }
     },
@@ -1364,7 +1364,7 @@
       "effects": {
         "Unconscious": {
           "name": "Inconsciente",
-          "description": "<p>If the target has 20 Hit Points or fewer, it has the &Reference[Unconscious apply=false] condition for 1 hour, until it takes damage, or until a creature within 5 feet of it takes an action to wake it.</p>"
+          "description": "<p>If the target has 20 Hit Points or fewer, it has the &amp;Reference[Unconscious apply=false] condition for 1 hour, until it takes damage, or until a creature within 5 feet of it takes an action to wake it.</p>"
         }
       }
     },
@@ -1378,7 +1378,7 @@
       "effects": {
         "Frightened": {
           "name": "Amedrontado",
-          "description": "<p>The target has the &Reference[Frightened apply=false] condition until the start of the attacking creature’s next turn</p>"
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the start of the attacking creature’s next turn</p>"
         }
       }
     },
@@ -1445,11 +1445,11 @@
       "effects": {
         "Incapacitated": {
           "name": "Incapacitado",
-          "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the save.</p>"
+          "description": "<p>The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the save.</p>"
         },
         "Paralyzed": {
           "name": "Paralisado",
-          "description": "<p>The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
+          "description": "<p>The target has the &amp;Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
         }
       }
     },
@@ -1469,7 +1469,7 @@
       "effects": {
         "Paralyzed": {
           "name": "Paralisado",
-          "description": "<p>The target has the &Reference[Paralyzed apply=false] condition until the start of the attacking creature's next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Paralyzed apply=false] condition until the start of the attacking creature's next turn.</p>"
         }
       }
     },
@@ -1483,11 +1483,11 @@
       "effects": {
         "Restrained": {
           "name": "Contido",
-          "description": "<p>The target has the &Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p>"
+          "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p>"
         },
         "Petrified": {
           "name": "Petrificado",
-          "description": "<p>The target has the &Reference[Petrified apply=false] condition instead of the Restrained condition.</p>"
+          "description": "<p>The target has the &amp;Reference[Petrified apply=false] condition instead of the Restrained condition.</p>"
         }
       }
     },
@@ -1497,11 +1497,11 @@
       "effects": {
         "Petrified": {
           "name": "Petrificado",
-          "description": "<p>The target has the &Reference[Petrified apply=false] condition instead of the Restrained condition.</p>"
+          "description": "<p>The target has the &amp;Reference[Petrified apply=false] condition instead of the Restrained condition.</p>"
         },
         "Restrained": {
           "name": "Contido",
-          "description": "<p>The target has the &Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p>"
+          "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p>"
         }
       }
     },
@@ -1511,11 +1511,11 @@
       "effects": {
         "Restrained": {
           "name": "Contido",
-          "description": "<p>The target has the &Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p>"
+          "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p>"
         },
         "Petrified": {
           "name": "Petrificado",
-          "description": "<p>The target has the &Reference[Petrified apply=false] condition instead of the Restrained condition.</p>"
+          "description": "<p>The target has the &amp;Reference[Petrified apply=false] condition instead of the Restrained condition.</p>"
         }
       }
     },
@@ -1529,7 +1529,7 @@
       "effects": {
         "Grappled": {
           "name": "Agarrado",
-          "description": "<p>If the target is a Large or smaller creature, it has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
+          "description": "<p>If the target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
         }
       }
     },
@@ -1551,7 +1551,7 @@
       "effects": {
         "Blinded": {
           "name": "Cego",
-          "description": "<p>The target has the &Reference[Blinded apply=false] condition until the start of the attacking creature ’s next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Blinded apply=false] condition until the start of the attacking creature ’s next turn.</p>"
         }
       }
     },
@@ -1561,7 +1561,7 @@
       "effects": {
         "Incapacitated": {
           "name": "Incapacitado",
-          "description": "<p>The target has the &Reference[Incapacitated apply=false] condition and loses control of its body.</p>"
+          "description": "<p>The target has the &amp;Reference[Incapacitated apply=false] condition and loses control of its body.</p>"
         }
       }
     },
@@ -1620,7 +1620,7 @@
       "effects": {
         "Grappled": {
           "name": "Agarrado",
-          "description": "<p>The target has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
+          "description": "<p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
         }
       }
     },
@@ -1650,7 +1650,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>The target has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -1700,7 +1700,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>The target has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -1716,7 +1716,7 @@
     },
     "Riposte": {
       "name": "Riposte",
-      "description": "<p class=\"feature\"><em>Gatilho:</em> The [[lookup @name lowercase]]{monster} is hit by a melee attack roll while holding a weapon.</p><p class=\"feature\"><em>Resposta:</em> The [[lookup @name lowercase]]{monster} adds 3 to its AC against that attack, possibly causing it to miss. On a miss, the [[lookup @name lowercase]]{monster} makes one Rapier attack against the triggering creature if within range.</p><section class=\"secret\" id=\"secret-VqXu1b39RjadyOE4\"><p><strong>Nota do Foundry</strong></p><p>This feature also provides an <strong>Active Effect (AE)</strong> that will modify this creature's <strong>Armor Class</strong> when you utilize the reaction. You can enable the AE in the effects tab of the character sheet.</p></section>",
+      "description": "<p class=\"feature\"><em>Trigger:</em> The [[lookup @name lowercase]]{monster} is hit by a melee attack roll while holding a weapon.</p><p class=\"feature\"><em>Response:</em> The [[lookup @name lowercase]]{monster} adds 3 to its AC against that attack, possibly causing it to miss. On a miss, the [[lookup @name lowercase]]{monster} makes one Rapier attack against the triggering creature if within range.</p><section class=\"secret\" id=\"secret-VqXu1b39RjadyOE4\"><p><strong>Nota do Foundry</strong></p><p>This feature also provides an <strong>Active Effect (AE)</strong> that will modify this creature's <strong>Armor Class</strong> when you utilize the reaction. You can enable the AE in the effects tab of the character sheet.</p></section>",
       "effects": {
         "+3 AC": {
           "name": "+3 AC",
@@ -1737,15 +1737,15 @@
       "effects": {
         "Frightened": {
           "name": "Amedrontado",
-          "description": "<p>The target has the &Reference[Frightened apply=false] condition for 1 minute.</p>"
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition for 1 minute.</p>"
         },
         "Paralyzed": {
           "name": "Paralisado",
-          "description": "<p>The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
+          "description": "<p>The target has the &amp;Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
         },
         "Prone": {
           "name": "Caído",
-          "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>The target has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -1759,7 +1759,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>If the target is a Large or smaller creature, it has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>If the target is a Large or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -1787,7 +1787,7 @@
       "effects": {
         "Frightened": {
           "name": "Amedrontado",
-          "description": "<p>The target has the &Reference[Frightened apply=false] condition.</p>"
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition.</p>"
         }
       }
     },
@@ -1844,7 +1844,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>If the target is a Medium or smaller creature, it has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>If the target is a Medium or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -1903,11 +1903,11 @@
       "effects": {
         "Incapacitated": {
           "name": "Incapacitado",
-          "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p>"
+          "description": "<p>The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p>"
         },
         "Unconscious": {
           "name": "Inconsciente",
-          "description": "<p>The target has the &Reference[Unconscious apply=false] condition for the duration (see source item for the length of the duration). </p>"
+          "description": "<p>The target has the &amp;Reference[Unconscious apply=false] condition for the duration (see source item for the length of the duration). </p>"
         }
       }
     },
@@ -1988,7 +1988,7 @@
       "effects": {
         "Poisoned": {
           "name": "Envenenado",
-          "description": "<p>The target has the &Reference[Poisoned apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>"
+          "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>"
         }
       }
     },
@@ -2006,7 +2006,7 @@
       "effects": {
         "Poisoned": {
           "name": "Envenenado",
-          "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the start of its next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the start of its next turn.</p>"
         }
       }
     },
@@ -2028,7 +2028,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>If the target is a Large or smaller creature, it has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>If the target is a Large or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -2042,7 +2042,7 @@
       "effects": {
         "Stunned": {
           "name": "Atordoado",
-          "description": "<p>The target has the &Reference[Stunned apply=false]] condition until the end of the vrock’s next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Stunned apply=false]] condition until the end of the vrock’s next turn.</p>"
         }
       }
     },
@@ -2068,7 +2068,7 @@
         },
         "Prone": {
           "name": "Caído",
-          "description": "<p>If you are regurgitated, you fall into a space within 10 ft. and are &Reference[Prone apply=false].</p>"
+          "description": "<p>If you are regurgitated, you fall into a space within 10 ft. and are &amp;Reference[Prone apply=false].</p>"
         }
       }
     },
@@ -2082,7 +2082,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>If the target is a Medium or smaller creature, it has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>If the target is a Medium or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -2096,7 +2096,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>The target has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -2140,7 +2140,7 @@
       "effects": {
         "Stunned": {
           "name": "Atordoado",
-          "description": "<p>The target has the &Reference[Stunned apply=false] condition until the start of the attacking creature's next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Stunned apply=false] condition until the start of the attacking creature's next turn.</p>"
         }
       }
     },
@@ -2150,7 +2150,7 @@
       "effects": {
         "Grappled": {
           "name": "Agarrado",
-          "description": "<p>The target has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
+          "description": "<p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
         }
       }
     },
@@ -2174,7 +2174,7 @@
       "effects": {
         "Deafened": {
           "name": "Surdo",
-          "description": "<p>The target is &Reference[Deafened apply=long] until the end of its next turn.</p>"
+          "description": "<p>The target is &amp;Reference[Deafened apply=long] until the end of its next turn.</p>"
         }
       }
     },
@@ -2184,7 +2184,7 @@
       "effects": {
         "Incapacitated": {
           "name": "Incapacitado",
-          "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn.</p>"
         }
       }
     },
@@ -2234,7 +2234,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>The target has a &Reference[Prone apply=long] condition.</p><p></p>"
+          "description": "<p>The target has a &amp;Reference[Prone apply=long] condition.</p><p></p>"
         }
       }
     },
@@ -2248,7 +2248,7 @@
       "effects": {
         "Poisoned": {
           "name": "Envenenado",
-          "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the end of its next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the end of its next turn.</p>"
         }
       }
     },
@@ -2262,7 +2262,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>If the target is a Large or smaller creature, it has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>If the target is a Large or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -2298,7 +2298,7 @@
     },
     "Unicorn's Blessing": {
       "name": "Unicorn's Blessing",
-      "description": "<p>The [[lookup @name]]{monster} touches another creature with its horn and casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Curar Ferimentos}</em> or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Restauração Menor}</em> on that creature, using the same spellcasting ability as Spellcasting.</p>"
+      "description": "<p>The [[lookup @name]]{monster} touches another creature with its horn and casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Curar Ferimentos}</em> or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em> on that creature, using the same spellcasting ability as Spellcasting.</p>"
     },
     "Unnerving Gaze": {
       "name": "Unnerving Gaze",
@@ -2306,7 +2306,7 @@
       "effects": {
         "Frightened": {
           "name": "Amedrontado",
-          "description": "<p>The target has the &Reference[Frightened apply=false] condition until the end of its turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the end of its turn.</p>"
         }
       }
     },
@@ -2316,7 +2316,7 @@
       "effects": {
         "Frightened": {
           "name": "Amedrontado",
-          "description": "<p>The target has the &Reference[Frightened apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
         }
       }
     },
@@ -2340,7 +2340,7 @@
       "effects": {
         "Invisible": {
           "name": "Invisível",
-          "description": "<p>The attacking creature and its light have the &Reference[Invisible apply=false] condition until their Concentration ends on this effect, which ends early immediately after the wisp makes an attack roll or uses the Consume Life bonus action.</p>"
+          "description": "<p>The attacking creature and its light have the &amp;Reference[Invisible apply=false] condition until their Concentration ends on this effect, which ends early immediately after the wisp makes an attack roll or uses the Consume Life bonus action.</p>"
         }
       }
     },
@@ -2354,7 +2354,7 @@
       "effects": {
         "Frightened": {
           "name": "Amedrontado",
-          "description": "<p>The target has the &Reference[Frightened apply=false] condition until the start of its next turn.</p>"
+          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the start of its next turn.</p>"
         }
       }
     },
@@ -2376,7 +2376,7 @@
       "effects": {
         "Grappled": {
           "name": "Agarrado",
-          "description": "<p>The target has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p><p>Until the grapple ends, the target can’t cast spells with a Verbal component and takes additional damage at the start of each of the NPC’s turns.</p>"
+          "description": "<p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p><p>Until the grapple ends, the target can’t cast spells with a Verbal component and takes additional damage at the start of each of the NPC’s turns.</p>"
         }
       }
     },
@@ -2421,7 +2421,7 @@
       "effects": {
         "Restrained": {
           "name": "Contido",
-          "description": "<p>The target has the &Reference[Restrained apply] condition until the web is destroyed.</p>"
+          "description": "<p>The target has the &amp;Reference[Restrained apply] condition until the web is destroyed.</p>"
         }
       }
     },
@@ -2431,7 +2431,7 @@
       "effects": {
         "Restrained": {
           "name": "Contido",
-          "description": "<p>The target has the &Reference[Restrained apply=false] condition until the web is destroyed.</p>"
+          "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition until the web is destroyed.</p>"
         }
       }
     },
@@ -2445,7 +2445,7 @@
       "effects": {
         "Exhaustion": {
           "name": "Exaustão",
-          "description": "<p>The target gains 1 &Reference[Exhaustion apply=long] level. </p>"
+          "description": "<p>The target gains 1 &amp;Reference[Exhaustion apply=long] level. </p>"
         }
       }
     },
@@ -2465,7 +2465,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>The target is pushed up to 20-ft. straight away from the attacking creature and has the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>The target is pushed up to 20-ft. straight away from the attacking creature and has the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     },
@@ -2482,7 +2482,7 @@
         },
         "Blinded": {
           "name": "Cego",
-          "description": "<p>Each creature of the attacking creature's choice that it can see within 5 ft. of its destination space has the &Reference[Blinded apply=long] condition until the end of the attacking creature's next turn.</p>"
+          "description": "<p>Each creature of the attacking creature's choice that it can see within 5 ft. of its destination space has the &amp;Reference[Blinded apply=long] condition until the end of the attacking creature's next turn.</p>"
         }
       }
     },
@@ -2508,7 +2508,7 @@
       "effects": {
         "Prone": {
           "name": "Caído",
-          "description": "<p>Creatures in that area lose &Reference[Concentration] and, if Medium or smaller, have the &Reference[Prone apply=false] condition.</p>"
+          "description": "<p>Creatures in that area lose &amp;Reference[Concentration] and, if Medium or smaller, have the &amp;Reference[Prone apply=false] condition.</p>"
         }
       }
     }

@@ -1963,9 +1963,7 @@
               "changes": {
                 "system.damage.base.types": "radiant",
                 "name": "{} (Golpe Certeiro)",
-                "system.damage.parts": [
-                  ["(floor((@details.level + 1) / 6))d6", "radiant"]
-                ],
+                "system.damage.parts": [["(floor((@details.level + 1) / 6))d6", "radiant"]],
                 "activities[attack].attack.ability": "spellcasting"
               }
             },
@@ -2037,9 +2035,7 @@
               "changes": {
                 "system.damage.base.types": "radiant",
                 "name": "{} (Golpe Certeiro)",
-                "system.damage.parts": [
-                  ["(floor((@details.level + 1) / 6))d6", "radiant"]
-                ],
+                "system.damage.parts": [["(floor((@details.level + 1) / 6))d6", "radiant"]],
                 "activities[attack].attack.ability": "spellcasting"
               }
             }
@@ -4091,9 +4087,7 @@
               "changes": {
                 "system.damage.base.types": "radiant",
                 "name": "{} (Golpe Certeiro)",
-                "system.damage.parts": [
-                  ["(floor((@details.level + 1) / 6))d6", "radiant"]
-                ],
+                "system.damage.parts": [["(floor((@details.level + 1) / 6))d6", "radiant"]],
                 "activities[attack].attack.ability": "spellcasting"
               }
             }
@@ -4171,9 +4165,7 @@
               "changes": {
                 "system.damage.base.types": "radiant",
                 "name": "{} (Golpe Certeiro)",
-                "system.damage.parts": [
-                  ["(floor((@details.level + 1) / 6))d6", "radiant"]
-                ],
+                "system.damage.parts": [["(floor((@details.level + 1) / 6))d6", "radiant"]],
                 "activities[attack].attack.ability": "spellcasting"
               }
             },
@@ -9189,9 +9181,7 @@
               "changes": {
                 "system.damage.base.types": "radiant",
                 "name": "{} (Golpe Certeiro)",
-                "system.damage.parts": [
-                  ["(floor((@details.level + 1) / 6))d6", "radiant"]
-                ],
+                "system.damage.parts": [["(floor((@details.level + 1) / 6))d6", "radiant"]],
                 "activities[attack].attack.ability": "spellcasting"
               }
             },
@@ -9856,9 +9846,7 @@
               "changes": {
                 "system.damage.base.types": "radiant",
                 "name": "{} (Golpe Certeiro)",
-                "system.damage.parts": [
-                  ["(floor((@details.level + 1) / 6))d6", "radiant"]
-                ],
+                "system.damage.parts": [["(floor((@details.level + 1) / 6))d6", "radiant"]],
                 "activities[attack].attack.ability": "spellcasting"
               }
             }

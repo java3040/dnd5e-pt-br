@@ -512,7 +512,7 @@
       "name": "Hat of Many Spells",
       "results": {
         "1-50": {
-          "description": "You cast a random spell determined by rolling [[/r 1d10]]: on a 1, @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} (enlarge effect); on a 2, Enlarge/Reduce (reduce effect); on a 3, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}; on a 4, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Bola de Fogo}; on a 5, @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}; on a 6, @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibilidade} (cast on yourself); on a 7, @UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Relâmpago}; on an 8, @UUID[Compendium.dnd5e.spells24.Item.phbPhantasmalFor]{Phantasmal Force}; on a 9, @UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polimorfia}; on a 10, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Nuvem Fétida}."
+          "description": "You cast a random spell determined by rolling [[/r 1d10]]: on a 1, @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} (enlarge effect); on a 2, Enlarge/Reduce (reduce effect); on a 3, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}; on a 4, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}; on a 5, @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}; on a 6, @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility} (cast on yourself); on a 7, @UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt}; on an 8, @UUID[Compendium.dnd5e.spells24.Item.phbPhantasmalFor]{Phantasmal Force}; on a 9, @UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph}; on a 10, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}."
         },
         "51-55": {
           "description": "You have the &Reference[Stunned] condition until the end of your next turn, believing something awesome just happened."
@@ -662,16 +662,16 @@
       "name": "Manual of Golems: Type, Time, and Cost",
       "results": {
         "1-5": {
-          "description": "<strong>Golem:</strong> Clay Golem<br /><strong>Time:</strong> 30 days<br /><strong>Custo:</strong> 65,000 PO"
+          "description": "<strong>Golem:</strong> Clay Golem<br /><strong>Time:</strong> 30 days<br /><strong>Cost:</strong> 65,000 PO"
         },
         "6-17": {
-          "description": "<strong>Golem:</strong> Flesh Golem<br /><strong>Time:</strong> 60 days<br /><strong>Custo:</strong> 50,000 PO"
+          "description": "<strong>Golem:</strong> Flesh Golem<br /><strong>Time:</strong> 60 days<br /><strong>Cost:</strong> 50,000 PO"
         },
         "18-18": {
-          "description": "<strong>Golem:</strong> Iron Golem<br /><strong>Time:</strong> 120 days<br /><strong>Custo:</strong> 100,000 PO"
+          "description": "<strong>Golem:</strong> Iron Golem<br /><strong>Time:</strong> 120 days<br /><strong>Cost:</strong> 100,000 PO"
         },
         "19-20": {
-          "description": "<strong>Golem:</strong> Stone Golem<br /><strong>Time:</strong> 90 days<br /><strong>Custo:</strong> 80,000 PO"
+          "description": "<strong>Golem:</strong> Stone Golem<br /><strong>Time:</strong> 90 days<br /><strong>Cost:</strong> 80,000 PO"
         }
       }
     },
@@ -1086,7 +1086,7 @@
       "description": "<p>A roll table of effects for the @UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfWonder0]{Wand of Wonder} which implements the effects as activities where possible.</p>",
       "results": {
         "1-20": {
-          "description": "You cast a spell originating from the chosen point. Roll 1d10 to determine the spell: on a 1–2, @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}; on a 3–4, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}; on a 5–6, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Bola de Fogo}; on a 7–8, @UUID[Compendium.dnd5e.spells24.Item.phbsplSlow000000]{Slow}; on a 9–10, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Nuvem Fétida}."
+          "description": "You cast a spell originating from the chosen point. Roll 1d10 to determine the spell: on a 1–2, @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}; on a 3–4, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}; on a 5–6, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}; on a 7–8, @UUID[Compendium.dnd5e.spells24.Item.phbsplSlow000000]{Slow}; on a 9–10, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}."
         },
         "21-25": {
           "description": "Nothing happens at the chosen point of origin. Instead, you have the &Reference[Stunned] condition until the start of your next turn, believing something awesome just happened."
@@ -1722,7 +1722,7 @@
       }
     },
     "Elven Lineage": {
-      "name": "Linhagem Élfica",
+      "name": "Elven Lineage",
       "description": "<p>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p>",
       "results": {
         "1-1": {
@@ -1741,13 +1741,13 @@
       "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p>",
       "results": {
         "1-1": {
-          "name": "Tiferino Abissal"
+          "name": "Tiefling Abissal"
         },
         "2-2": {
-          "name": "Tiferino Ctônico"
+          "name": "Tiefling Ctônico"
         },
         "3-3": {
-          "name": "Tiferino Infernal"
+          "name": "Tiefling Infernal"
         }
       }
     },
