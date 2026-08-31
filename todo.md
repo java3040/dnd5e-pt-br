@@ -17,11 +17,11 @@
   - [ ] Tables
   - [ ] Trade Goods
 
-- [ ] Traduzir compêndio de 2024 para o português brasileiro.
+- [~] Traduzir compêndio de 2024 para o português brasileiro.
   - [x] Origins
   - [x] Classes
-  - [~] Feats
-  - [ ] Equipment
+  - [x] Feats
+  - [~] Equipment
   - [ ] Spells
   - [ ] Actors
   - [ ] Monster Features
