@@ -20,9 +20,9 @@
 - [ ] Traduzir compêndio de 2024 para o português brasileiro.
   - [x] Origins
   - [x] Classes
-  - [~] Feats
-  - [ ] Equipment
-  - [ ] Spells
+  - [x] Feats
+  - [x] Equipment
+  - [~] Spells
   - [ ] Actors
   - [ ] Monster Features
   - [ ] Content
