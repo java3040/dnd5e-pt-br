@@ -1119,7 +1119,7 @@
     "Greatclub": {
       "name": "Clava Grande",
       "description": "<p>Uma variante maior da clava simples — um cabo de madeira robusto com uma enorme protuberância na extremidade — causa danos de concussão devastadores a inimigos desafortunados.</p>"
-    },    
+    },
     "Greatclub +1": {
       "name": "Clava Grande +1",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
@@ -1211,7 +1211,7 @@
     "Hand Crossbow": {
       "name": "Besta de Mão",
       "description": "<p>Uma besta leve projetada para ser empunhada com uma mão ou presa ao pulso para disparar virotes leves.</p>"
-    },    
+    },
     "Hand Crossbow +1": {
       "name": "Besta de Mão +1",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
@@ -1255,7 +1255,7 @@
     "Heavy Crossbow": {
       "name": "Besta Pesada",
       "description": "<p>Uma besta grande montada em um bloco de madeira robusto, carregada por meio de uma manivela e que dispara virotes de aço espessos com uma aceleração letal, capaz de perfurar armaduras e carne.</p>"
-    },    
+    },
     "Heavy Crossbow +1": {
       "name": "Besta Pesada +1",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
@@ -1447,7 +1447,7 @@
     "Javelin": {
       "name": "Azagaia",
       "description": "<p>Esta lança leve e flexível foi projetada para ser arremessada, mas é versátil o suficiente para também ser usada em combate corpo a corpo.</p>"
-    },    
+    },
     "Javelin +1": {
       "name": "Azagaia +1",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
@@ -1547,7 +1547,7 @@
     "Light Crossbow": {
       "name": "Besta Leve",
       "description": "<p>Uma pequena besta com corpo de madeira e corda tensionada, capaz de disparar um único virote que pode perfurar até mesmo armaduras pesadas a curta distância.</p>"
-    },    
+    },
     "Light Crossbow +1": {
       "name": "Besta Leve +1",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
@@ -1583,7 +1583,7 @@
     "Longbow": {
       "name": "Arco Longo",
       "description": "<p>Uma haste robusta de madeira laminada é curvada por uma corda tensa, capaz de disparar flechas letais a longas distâncias.</p>"
-    },    
+    },
     "Longbow +1": {
       "name": "Arco Longo +1",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
@@ -1699,6 +1699,10 @@
     "Manacles": {
       "name": "Algemas",
       "description": "<p>Estas contenções de metal podem prender uma criatura Pequena ou Média. Escapar das algemas requer um teste bem-sucedido de [[/check dex 20]]. Quebrá-los requer um teste bem-sucedido de [[/check str 20]]. Cada conjunto de algemas vem com uma chave. Sem ela, uma criatura proficiente com ferramentas de ladrão pode destravar as algemas sendo bem-sucedida em um teste de [[/check dex 15]]. As algemas têm 15 pontos de vida.</p>"
+    },
+    "Flail": {
+      "name": "Mangual",
+      "description": "<p>A heavy iron ball attached to a stout wooden shaft with a heavy chain, allowing it to deal devastating damage at the end of wide, sweeping swings.</p>"
     },
     "Flail": {
       "name": "Mangual",
@@ -2195,7 +2199,7 @@
     "Quarterstaff": {
       "name": "Bastão",
       "description": "<p>Um cabo de madeira espesso, revestido por uma empunhadura resistente, constitui uma arma altamente funcional, além de servir como uma bengala robusta.</p>"
-    },    
+    },
     "Quarterstaff +1": {
       "name": "Bastão +1",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
@@ -2483,7 +2487,7 @@
     "Scale Mail": {
       "name": "Lórica de Escamas",
       "description": "<p>Esta armadura é composta por um casaco e perneiras (e, talvez, por um saiote) feitos de couro e cobertos com camadas sobrepostas de peças de metal que lembram as escamas de um peixe. O traje inclui manoplas.</p>"
-    },    
+    },
     "Scale Mail +1": {
       "name": "Lórica de Escamas +1",
       "description": "<p><em>Esta armadura foi adornada com runas poderosas, forjada em chamas mágicas, abençoada por um ser poderoso ou recebeu proteção aprimorada para quem a veste por meio de algum outro evento.</p><p>Você recebe um bônus na CA de +1 enquanto veste esta armadura.</p>"
@@ -2511,7 +2515,7 @@
     "Scimitar": {
       "name": "Cimitarra",
       "description": "<p>Esta lâmina curva é larga perto do cabo revestido, mas descreve um arco e afunila em direção a uma ponta reluzente.</p>"
-    },    
+    },
     "Scimitar +1": {
       "name": "Cimitarra +1",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
@@ -2571,7 +2575,7 @@
     "Shortbow": {
       "name": "Arco Curto",
       "description": "<p>Este arco de duas mãos é um pouco menor do que a variante tradicional do arco longo, sendo ideal para ataques rápidos em movimento ou a cavalo.</p>"
-    },    
+    },
     "Shortbow +1": {
       "name": "Arco Curto +1",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
@@ -2904,10 +2908,10 @@
       "name": "Caixa para Fogo",
       "description": "<p>Este pequeno recipiente contém pederneira, um aço de percussão e isca (geralmente um pano seco embebido em óleo leve) usados para acender fogo. Usá-lo para acender uma tocha - ou qualquer outra coisa com combustível abundante e exposto - consome uma ação. Acender qualquer outro tipo de fogo leva 1 minuto.</p>"
     },
-		"Tinker's Tools": {
-			"name": "Ferramentas de Funileiro",
+    "Tinker's Tools": {
+      "name": "Ferramentas de Funileiro",
       "description": "<p>Estas ferramentas especiais incluem os itens necessários para o exercício de um ofício ou comércio de um funileiro.</p><p>Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de atributo que empregue as ferramentas do seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência própria.</p>"
-		},
+    },
     "Tome of Clear Thought": {
       "name": "Tomo da Clareza de Pensamento",
       "description": "<p><em>Item Maravilhoso</em></p><p>Este livro contém exercícios de memória e de lógica e as palavras dele são carregadas de magia. Se você passar 48 horas distribuídas em um período de 6 dias ou menos estudando e praticando o conteúdo deste livro, seu valor de Inteligência aumenta em 2, assim como o seu valor máximo para nesse atributo. O manual então perde a magia que possui, recuperando-a em um século.</p>"
@@ -2967,7 +2971,7 @@
     "Unarmed Strike": {
       "name": "Ataque Desarmado",
       "description": "<p>Um soco, chute, cabeçada ou golpe contundente semelhante (nenhum dos quais conta como arma). Ao acertar, um ataque desarmado causa dano de concussão igual a 1 + seu modificador de Força. Você é proficiente com seus ataques desarmados.</p>"
-    },    
+    },
     "Universal Solvent": {
       "name": "Solvente Universal",
       "description": "<p><em>Item Maravilhoso</em></p><p>Este tubo contém um líquido leitoso com um forte cheiro de álcool. Com uma ação você pode derramar o conteúdo do tubo sobre uma superfície ao seu alcance. O líquido dissolve instantaneamente até 0,1 metro quadrado de adesivo que tocar, incluindo a @UUID[Compendium.dnd5e.items.Item.zJ5LhDvTxYKzPIx4]{Cola Suprema}.</p>"
@@ -3135,7 +3139,7 @@
     "Vorpal Longsword": {
       "name": "Espada Longa Vorpal",
       "description": "<p><em>(requer sintonização)</em></p><p>Você ganha um bônus de +3 nas jogadas de ataque e dano feitas com esta arma mágica. Além disso, ela ignora resistência a dano cortante.</p><p>Ao usar esta arma para atacar uma criatura que possua ao menos uma cabeça, e tirar 20 na jogada de ataque, você corta uma das cabeças. A criatura morre se não puder sobreviver sem a cabeça perdida. Uma criatura é imune a este efeito se for imune a dano cortante, se não tiver ou não precisar de uma cabeça, se tiver ações lendárias ou se o DM decidir que a criatura é grande demais para que a cabeça seja cortada com esta arma. Neste último caso a criatura sofre [[/damage 6d8 slashing]]{6d8} pontos de dano cortante adicionais devido ao golpe.</p>"
-   },
+    },
     "Vorpal Scimitar": {
       "name": "Cimitarra Vorpal",
       "description": "<p><em>(requer sintonização)</em></p><p>Você ganha um bônus de +3 nas jogadas de ataque e dano feitas com esta arma mágica. Além disso, ela ignora resistência a dano cortante.</p><p>Ao usar esta arma para atacar uma criatura que possua ao menos uma cabeça, e tirar 20 na jogada de ataque, você corta uma das cabeças. A criatura morre se não puder sobreviver sem a cabeça perdida. Uma criatura é imune a este efeito se for imune a dano cortante, se não tiver ou não precisar de uma cabeça, se tiver ações lendárias ou se o DM decidir que a criatura é grande demais para que a cabeça seja cortada com esta arma. Neste último caso a criatura sofre [[/damage 6d8 slashing]]{6d8} pontos de dano cortante adicionais devido ao golpe.</p>"
@@ -3247,7 +3251,7 @@
     "Whip": {
       "name": "Chicote",
       "description": "<p>Um chicote de couro, corda ou corrente capaz de atingir inimigos próximos, causando lacerações e atormentando-os à distância.</p>"
-    },    
+    },
     "Whip +1": {
       "name": "Chicote +1",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
